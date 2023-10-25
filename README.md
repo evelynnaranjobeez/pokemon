@@ -39,11 +39,6 @@ Sigue estos pasos para compilar y ejecutar la **Pokémon Explorer App** en tu di
 
 Si deseas contribuir a este proyecto, ¡serás bienvenido! Siéntete libre de realizar solicitudes de extracción y reportar problemas.
 
-## Licencia
-
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
-
----
 
 Esperamos que disfrutes explorando el emocionante mundo de Pokémon con la **Pokémon Explorer App**. Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
 
