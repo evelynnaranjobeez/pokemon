@@ -1,5 +1,3 @@
-Por supuesto, aquí tienes un ejemplo de un README mejorado para tu aplicación de Android que muestra una lista de Pokémon con sus detalles y movimientos utilizando la arquitectura MVVM:
-
 # Pokémon
 
 La **Pokémon App** es una aplicación de Android desarrollada en Java que te permite explorar una lista de Pokémon junto con sus detalles y movimientos. La aplicación está diseñada siguiendo la arquitectura Model-View-ViewModel (MVVM) para garantizar un código organizado y mantenible.
