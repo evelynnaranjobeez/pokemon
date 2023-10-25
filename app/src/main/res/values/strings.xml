@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="title_activity_pokemon_detail">Detalles</string>
+    <string name="detail_height_caption">Altura</string>
+    <string name="pokemon_image_desc">PokemonDetail image</string>
+    <string name="detail_weight_caption">Peso</string>
+    <string name="types">Tipos:</string>
+    <string name="detail_abilities_caption">Habilidades:</string>
+    <string name="moves">Movimientos</string>
+    <string name="summary">Detalles</string>
+
+</resources>
