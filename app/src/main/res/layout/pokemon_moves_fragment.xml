@@ -49,7 +49,10 @@
             android:layout_height="wrap_content"
             android:text="@{pokemonDetail.name}"
             android:textAllCaps="true"
-            android:textSize="20sp"
+
+            android:textStyle="italic"
+
+            android:textSize="22sp"
             app:layout_constraintBottom_toTopOf="@+id/move_rv"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +64,7 @@
             android:id="@+id/detail_img"
             android:layout_width="112dp"
             android:layout_height="96dp"
-            android:layout_marginEnd="152dp"
+            android:layout_marginEnd="148dp"
             android:contentDescription="@string/pokemon_image_desc"
             android:translationY="-100dp"
             android:translationZ="2dp"
@@ -69,7 +72,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.253"
+            app:layout_constraintVertical_bias="0.277"
             tools:srcCompat="@tools:sample/avatars[3]" />
 
         <ProgressBar

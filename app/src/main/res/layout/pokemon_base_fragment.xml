@@ -32,23 +32,21 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.694" />
 
+
         <TextView
             android:id="@+id/detail_type1"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
-
             android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.258"
+            app:layout_constraintHorizontal_bias="0.266"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.768"
+            app:layout_constraintVertical_bias="0.757"
             tools:backgroundTint="@color/grassType"
             tools:text="Grass" />
-
 
         <TextView
             android:id="@+id/detail_type2"
@@ -56,13 +54,12 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.709"
+            app:layout_constraintHorizontal_bias="0.692"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.768"
+            app:layout_constraintVertical_bias="0.757"
             tools:backgroundTint="@color/poisonType"
             tools:text="Poison" />
 
@@ -71,8 +68,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{pokemonDetail.name}"
+            android:textStyle="italic"
             android:textAllCaps="true"
-            android:textSize="32sp"
+            android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.53"
@@ -95,17 +93,18 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.848" />
 
-        <Button
+        <TextView
             android:id="@+id/detail_ability2"
             android:layout_width="147dp"
             android:layout_height="42dp"
             android:gravity="center_horizontal|center_vertical"
+            android:textSize="20sp"
             android:minWidth="0dp"
             android:minHeight="0dp"
             android:paddingTop="2dp"
             android:paddingBottom="2dp"
             android:stateListAnimator="@null"
-            android:textSize="16sp"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.818"
@@ -114,17 +113,18 @@
             app:layout_constraintVertical_bias="0.937"
             tools:text="Chlorophyll" />
 
-        <Button
+        <TextView
             android:id="@+id/detail_ability1"
             android:layout_width="130dp"
             android:layout_height="43dp"
             android:gravity="center_horizontal|center_vertical"
+            android:textSize="20sp"
             android:minWidth="0dp"
             android:minHeight="0dp"
             android:paddingTop="2dp"
             android:paddingBottom="2dp"
             android:stateListAnimator="@null"
-            android:textSize="16sp"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.217"
@@ -141,7 +141,7 @@
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.609"
+            app:layout_constraintHorizontal_bias="0.644"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.462"
@@ -156,7 +156,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.402"
+            app:layout_constraintHorizontal_bias="0.453"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.462" />
@@ -169,7 +169,7 @@
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintHorizontal_bias="0.606"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.462"
@@ -177,8 +177,8 @@
 
         <ImageView
             android:id="@+id/detail_img"
-            android:layout_width="168dp"
-            android:layout_height="195dp"
+            android:layout_width="197dp"
+            android:layout_height="188dp"
             android:contentDescription="@string/pokemon_image_desc"
             android:translationY="-100dp"
             android:translationZ="2dp"
@@ -193,30 +193,30 @@
 
         <ImageView
             android:id="@+id/detail_img2"
-            android:layout_width="56dp"
-            android:layout_height="64dp"
+            android:layout_width="42dp"
+            android:layout_height="47dp"
             android:contentDescription="@string/pokemon_image_desc"
             android:translationY="-100dp"
             android:translationZ="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintHorizontal_bias="0.247"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.608"
+            app:layout_constraintVertical_bias="0.613"
             app:srcCompat="@drawable/altura"
             tools:srcCompat="@drawable/altura" />
 
         <ImageView
             android:id="@+id/detail_img3"
-            android:layout_width="56dp"
-            android:layout_height="64dp"
+            android:layout_width="43dp"
+            android:layout_height="46dp"
             android:contentDescription="@string/pokemon_image_desc"
             android:translationY="-100dp"
             android:translationZ="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintHorizontal_bias="0.247"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.743"
@@ -231,7 +231,7 @@
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.606"
+            app:layout_constraintHorizontal_bias="0.642"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.589"
@@ -246,7 +246,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.395"
+            app:layout_constraintHorizontal_bias="0.446"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.589" />
@@ -259,7 +259,7 @@
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintHorizontal_bias="0.593"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.589"
