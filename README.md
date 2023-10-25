@@ -11,9 +11,9 @@ La **Pokémon App** es una aplicación de Android desarrollada en Java que te pe
 
 ## Capturas de Pantalla
 
-![Captura de pantalla 1](screenshots/screenshot1.png)
-![Captura de pantalla 2](screenshots/screenshot2.png)
-![Captura de pantalla 3](screenshots/screenshot3.png)
+![Captura de pantalla 1](screenshots/screenshot1.jpg)
+![Captura de pantalla 2](screenshots/screenshot2.jpg)
+![Captura de pantalla 3](screenshots/screenshot3.jpg)
 
 ## Arquitectura MVVM
 
